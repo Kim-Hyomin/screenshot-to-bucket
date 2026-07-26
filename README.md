@@ -46,7 +46,7 @@
   - 건강식 레시피 아이디어로 참고 저장하기
 
 - **책 리스트가 많은 화면**
-  - 여성주의 책 읽기 리스트로 저장하기
+  - 책 읽기 리스트로 저장하기
   - 이달의 읽을 책 후보로 추려보기
   - 관심 책 제목을 따로 메모해 구매·대여 검토하기
 
@@ -219,19 +219,3 @@ copy data\app_g35.db data\app_g35_backup.db
 ```cmd
 python -c "import sqlite3; s=sqlite3.connect('data/app_g35.db'); d=sqlite3.connect('data/app_g35_backup.db'); s.backup(d); d.close(); s.close(); print('백업 완료')"
 ```
-
-## 7. GitHub 공개 전 주의
-
-원본 스크린샷에는 SNS 계정명, 프로필 이미지, 댓글 작성자명, 광고와 저작권 콘텐츠가 포함될 수 있습니다.
-
-기본 `.gitignore`는 다음을 공개 저장소에서 제외합니다.
-
-```text
-.env
-data/raw/
-data/images/
-data/*.db
-outputs/
-```
-
-공개 저장소에는 익명화한 예시와 구조화 결과 일부만 포함하는 것을 권장합니다.
