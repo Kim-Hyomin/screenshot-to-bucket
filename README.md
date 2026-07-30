@@ -4,7 +4,7 @@
 저장·검토·검색할 수 있도록 구성한 AI 기반 애플리케이션입니다.
 
 <p align="center">
-  <img src="assets/screenshot-to-bucket-overview.png"
+  <img src="assets/screenshot-to-bucket-overview.PNG"
        alt="Screenshot to Bucket 전체 파이프라인"
        width="100%">
 </p>
