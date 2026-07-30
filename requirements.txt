@@ -1,0 +1,6 @@
+gradio>=6.20,<7
+google-genai>=1.61,<2
+pandas>=2.2,<3
+Pillow>=10,<13
+pydantic>=2.8,<3
+python-dotenv>=1,<2
