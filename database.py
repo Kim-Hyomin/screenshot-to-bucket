@@ -9,7 +9,7 @@ from pathlib import Path
 
 from core import AnalysisResult, BUCKETS, SOURCE_TYPES
 
-DB_PATH = Path(os.getenv("DB_PATH", "data/app_g35.db"))
+DB_PATH = Path(os.getenv("DB_PATH", "data/app.db"))
 
 
 def connect() -> sqlite3.Connection:
